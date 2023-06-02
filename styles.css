@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    flex: 1; /*/
     
 }
 
@@ -13,14 +14,14 @@ a{
 button{
     background-color: #3882f6;
     border-radius: 8px;
-    border:solid 2px#F9FAF8;;
+    border:solid 2px#F9FAF8;
     color: #F9FAF8;
     min-width: 125px;
     min-height: 40px;
     font-size: 18px;
 }
 
-/*HEADER PORTION START*/
+/*HEADER Portion START*/
 
 .header{
     display: flex;
@@ -32,6 +33,10 @@ button{
     padding-bottom: 60px;
     
 }
+.logo-and-links >p{
+    flex-shrink: 0;
+}
+
 .logo-and-links{
     display: flex;
     color: #F9FAF8;
@@ -59,10 +64,12 @@ button{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    padding-right: 20px;
 }
 .text-and-picture .smallerText{
     color: #E5E7EB;
     font-size: 18px;
+    padding-right: 20px;
 }
 
 .text-container{
@@ -75,11 +82,32 @@ button{
     
 }
 
-/*HEADER PORTION END*/
+/*HEADER Portion END*/
+
+
+/*UPPER PART(AFTER HEADER) portion START*/
+.upper-container > p{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
 
 .upper-container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.mountain-icons{
+    display: flex;
+}
+
+.mountain-icons > div > img{
+    border: solid 3px #3882f6;
+    border-radius: 8px;
+}
+/*UPPER PART(AFTER HEADER) portion END*/
+
 
 .middle-container{
     display: flex;
