@@ -6,11 +6,14 @@ body{
 
 a{
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .header{
     display: flex;
     flex-direction: column;
+    background-color:#1F2937 ;
 }
 
 .upper-container{
@@ -32,6 +35,9 @@ a{
 
 .logo-and-links{
     display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
+   
 
 }
 
@@ -44,4 +50,11 @@ a{
 
 .text-and-picture{
     display: flex;
+}
+
+
+
+.text-container{
+    display: flex;
+    flex-direction: column;
 }
