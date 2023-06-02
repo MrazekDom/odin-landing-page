@@ -1,9 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
-    flex: 1; 
-    
 }
+
 
 a{
     text-decoration: none;
@@ -19,6 +18,14 @@ button{
     min-width: 125px;
     min-height: 40px;
     font-size: 18px;
+}
+
+.header,
+.upper-container,
+.middle-container,
+.lower-container,
+.footer {
+  flex: 1;              /*this makes every div in the body the same heigh*/
 }
 
 /*HEADER Portion START*/
@@ -110,7 +117,6 @@ button{
     text-align: center;
     
 }
-
 .mountain-icons > div > img{
     border: solid 3px #3882f6;
     border-radius: 8px;
@@ -123,10 +129,13 @@ button{
 
 /*UPPER PART(AFTER HEADER) portion END*/
 
-
+/*MIDDLE PART portion START*/
 .middle-container{
     display: flex;
+    background-color: #E5E7EB;
 }
+
+/*MIDDLE PART portion END*/
 
 .lower.container{
     display: flex;
