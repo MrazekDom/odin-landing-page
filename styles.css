@@ -1,3 +1,47 @@
 body{
-    display:flex
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-container{
+    display: flex;
+}
+
+.middle-container{
+    display: flex;
+}
+
+.lower.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+}
+
+.logo-and-links{
+    display: flex;
+
+}
+
+.links{
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    gap: 25px;
+}
+
+.text-and-picture{
+    display: flex;
 }
