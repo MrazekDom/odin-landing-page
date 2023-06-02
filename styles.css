@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    flex: 1; /*/
+    flex: 1; 
     
 }
 
@@ -100,12 +100,27 @@ button{
 
 .mountain-icons{
     display: flex;
+    gap: 45px ;
+    flex-wrap: wrap;
+}
+.mountain-icons > div>p{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 206px;
+    text-align: center;
+    
 }
 
 .mountain-icons > div > img{
     border: solid 3px #3882f6;
     border-radius: 8px;
 }
+.mountain-icons > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*UPPER PART(AFTER HEADER) portion END*/
 
 
