@@ -32,6 +32,7 @@ button{
   flex: 1;              /*this makes every div in the body the same heigh*/
 }
 
+
 /*HEADER Portion START*/
 
 .header{
@@ -120,8 +121,15 @@ button{
     flex-wrap: wrap;
     max-width: 206px;
     text-align: center;
+    justify-content: center;
     
 }
+
+.span{
+    background-color: aquamarine;
+    text-align: center;
+}
+
 .mountain-icons > div > img{
     border: solid 3px #3882f6;
     border-radius: 8px;
@@ -146,7 +154,7 @@ button{
 .middle-container .biggerText{
     font-size: 36px;
     font-style: italic;
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0;
     align-self: center;
     font-weight: 300;
@@ -158,6 +166,7 @@ button{
     margin-left: 450px;
     
 }
+
 
 
 /*MIDDLE PART portion END*/
