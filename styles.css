@@ -3,7 +3,6 @@ body{
     flex-direction: column;
 }
 
-
 a{
     text-decoration: none;
     color: #E5E7EB;             /*links*/
@@ -103,6 +102,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .mountain-icons{
@@ -133,7 +133,27 @@ button{
 .middle-container{
     display: flex;
     background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 100px;
+    
 }
+
+.middle-container .biggerText{
+    font-size: 36px;
+    font-style: italic;
+    max-width: 700px;
+    margin: 0;
+    align-self: center;
+    font-weight: 300;
+}
+.middle-container .smallerText{
+    align-self:center;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 450px;
+    
+}
+
 
 /*MIDDLE PART portion END*/
 
